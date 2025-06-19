@@ -1,0 +1,129 @@
+import { StyleSheet } from "react-native";
+import { Color } from "../../utils/constant";
+import { ms } from "../../utils/helpers/metrics";
+
+export const ProfileStyles = StyleSheet.create({
+    ut_container: {
+        flex: 1,
+        backgroundColor: Color.ut_background
+    },
+    ut_profile_container: {
+        flex: 1,
+        paddingHorizontal: ms(16)
+    },
+    ut_profile_wrapper:{
+        marginTop:ms(50),
+        alignSelf:"center",
+        position:"relative"
+    },
+    ut_profile_info_box:{
+        position:"absolute",
+        width:ms(35),
+        height:ms(35),
+        backgroundColor:Color.ut_primary,
+        borderRadius:ms(100),
+        bottom:ms(0),
+        right:ms(68),
+        bottom:ms(-12),
+        alignItems:"center",
+        justifyContent:"center",
+        padding:ms(1)
+    },
+    ut_profile_info_wrapper:{
+        width:ms(30),
+        height:ms(30),
+        borderRadius:ms(100),
+        backgroundColor:Color.ut_white,
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    ut_profile_box:{
+        width:ms(170),
+        height:ms(170),
+        borderRadius:ms(100),
+        backgroundColor:Color.ut_primary,
+        overflow:"hidden",
+        padding:ms(4),
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    ut_profile_image:{
+        width:"100%",
+        height:"100%",
+        resizeMode:"cover",
+        borderRadius:ms(100)
+    },
+    ut_profile_name_box:{
+        alignSelf:"center",
+        alignItems:"center",
+    },
+    ut_profile_name_text:{
+        fontSize:ms(30),
+        fontWeight:"800",
+        marginTop:ms(15),
+        color:Color.ut_black
+    },
+    ut_profile_email_text:{
+        fontSize:ms(18),
+        fontWeight:"600",
+        marginTop:ms(5),
+        color:Color.ut_gray
+    },
+    ut_profile_phone_text:{
+        fontSize:ms(18),
+        fontWeight:"600",
+        marginTop:ms(5),
+        color:Color.ut_gray
+    },
+    ut_button_box:{
+        paddingHorizontal:ms(16),
+        marginTop:ms(35),
+        gap:ms(15)
+    },
+    ut_logout_box:{
+        backgroundColor:"#d0d0d030",
+        height:ms(60),
+        borderRadius:ms(10),
+       flexDirection:"row",
+       alignItems:"center",
+       justifyContent:"space-between",
+       paddingHorizontal:ms(10)
+    },
+    ut_icon_box:{
+        width:ms(30),
+        height:ms(30),
+        borderRadius:ms(100),
+        backgroundColor:Color.ut_white,
+        alignItems:"center",
+        justifyContent:"center",
+        marginRight:ms(10)
+    },
+    ut_logout_text:{
+        fontSize:ms(17),
+        fontWeight:"700",
+        color:Color.ut_black
+    },
+    ut_logout_wrapper:{
+        flexDirection:"row",
+        alignItems:"center",
+    },
+    ut_right_box:{
+        width:ms(30),
+        height:ms(30),
+        borderRadius:ms(100),
+        backgroundColor:Color.ut_white,
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    ut_version_text:{
+        fontSize:ms(18),
+        fontWeight:"500",
+        marginTop:ms(18),
+        color:Color.ut_gray,
+        textAlign:"center",
+        position:"absolute",
+        bottom:ms(-120),
+        left:ms(150)
+        
+    }
+})
