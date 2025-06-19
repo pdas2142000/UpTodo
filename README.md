@@ -36,9 +36,10 @@ This app helps users add, update, delete, and filter their daily tasks. It also 
 
 ### 👤 Profile Management
 
-- Update user profile details (e.g., name, image, etc.)
-- Profile image picker functionality
-- Updates stored user info with ease
+- Update only the user profile photo
+- Select image using react-native-image-picker
+- Shows toast notification after successful update
+- Saves and displays the updated image from local storage
 
 ---
 
